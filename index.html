@@ -1,25 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
     <link rel="stylesheet" href="./estilo.css">
-
+    <!-- <link rel="stylesheet" href="./responsivo.css"> -->
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 
 </head>
 <body>
+    <div class="container-principal">
+        <div class="flex">
+
+            <div class="txt-leads">
+                <h1>
+                    TORNE-SE UM <br>
+                    <span>DESENVOLVEDOR WEB</span>
+                </h1>
+
+                <img src="./imagem formulario1.png" alt="">
+
+                <p>Baixe o e-book gratuito e comece a sua jornada. <br>
+                <span>Tire seus projetos dos papel</span>
+                </p>
+            </div><!--txt leads-->
     <div class="container">
         <div class="header">
-            <h2>Criar Uma Conta</h2>
+            <h2>Seus Dados</h2>
 
         </div><!--header-->
         <form id="form" class="form">
             <div class="form-control">
-                <label for="username">Nome de usuário</label>
+                <label for="username">Nome</label>
                 <input type="text" id="username" placeholder="Digite seu nome de usuário..." />  
                 <i class="fas fa-exclamation-circle"></i>
                 <i class="fas fa-check-circle"></i>
@@ -33,22 +49,22 @@
                 <small>Mensagem de erro</small>
             </div>
             <div class="form-control">
-                <label for="password">Senha</label>
-                <input type="password" id="password" placeholder="Digite sua senha..."/>  
+                <label for="telefone">Telefone</label>
+                <input type="telefone" id="telefone" placeholder="Digite seu telefone..."/>  
                 <i class="fas fa-exclamation-circle"></i>
                 <i class="fas fa-check-circle"></i>
                 <small>Mensagem de erro</small>
             </div>
             <div class="form-control">
-                <label for="password-confirmation">Confirmação de Senha</label>
-                <input type="password" id="password-confirmation" placeholder="Digite sua senha novamente..."/>  
-                <i class="fas fa-exclamation-circle"></i>
+                <label for="whatsapp">WhatsApp</label>
+                <input type="whatsapp" id="whatsapp" placeholder="Digite seu WhatsApp..."/>             <i class="fas fa-exclamation-circle"></i>
                 <i class="fas fa-check-circle"></i>
                 <small>Mensagem de erro</small>
             </div>
-            <button type="submit">Enviar</button>
+            <button type="submit">Enviar Dados</button>
         </form>   
     </div><!--container-->
+</div><!--container-principal-->
 
     <script src="https://kit.fontawesome.com/1d2c8c1f62.js" crossorigin="anonymous"></script>
 

@@ -4,33 +4,98 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
+html{
+    height: 100vh;
+
+}
 
 body{
-    width: 100%;
+    width: 95% 2%;
     min-height: 100vh;
     background:linear-gradient(90deg, #00dbde 0%, #fc00ff 100%);
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
 }
 
-.container {
-    background-color: #fafafa;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-    width: 400px;
-    max-width: 100%;
-    overflow:hidden
-}
+.container-principal{
+        max-width: 1280px 20%;
+        margin: auto;
+    }
+    
+    .flex{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 100vh;
+    }
+    
+    .txt-leads{
+        text-align: center;
+    }
+
+    .txt-leads{
+        text-align: center;
+    }
+    
+    .txt-leads h1{
+        margin: 10px;
+        color: #fff;
+        font-size: 1.2em;
+        font-weight: 500;
+        text-align: left;
+    }
+    
+    .txt-leads h1 span{
+        font-size: 2em;
+        font-weight: 700;
+    }
+    .txt-leads img{
+        width: 420px;
+        margin: 60px 0;
+    }
+    
+    .txt-leads p{
+        color: #fff;
+        font-size: 1.2em;
+        font-weight: 400;
+    }
+    
+    .txt-leads p span{
+        color: #fff;
+        font-size: 1.6em;
+        font-weight: 600;
+    }
+
+    .container-principal{
+        max-width: 1200px 20%;
+        margin: auto;
+    }
+
+    .container {
+        background-color: #fafafa;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        width: 550px;
+        height: 550px;
+        max-width: 100%;
+        overflow:hidden
+    }
 
 .header {
     background-color: #eee;
-    padding: 20px;
+    padding: 10px;
 }
 
-.form {
-    padding: 20px;
+form{
+    width: 100%;
+    border-radius: 40px;
+    padding: 8px;
 }
+
+/* .form {
+    padding: 10px; */
+
 
 .form-control{
     margin-bottom: 10px;
@@ -47,7 +112,7 @@ body{
     border: 2px solid #fafafa;
     display: block;
     border-radius: 10px;
-    font-size: 14px;
+    font-size: 10px;
     width: 100%;
     padding: 10px;
 }
@@ -96,5 +161,5 @@ body{
 
 .form-control.error small{
     visibility: visible;
-    color: #e74c3c;
+    color: #e74c3c
 }

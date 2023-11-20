@@ -1,0 +1,40 @@
+@media (max-width: 1120px){
+    .container-principal{
+        max-width: 190px;
+    }
+
+    .flex{
+        flex-direction: column;
+        max-width: 330px;
+        margin: 0 auto;
+    }
+
+    .container{
+        margin-top: 20px;
+    }
+
+    .form{
+        font-size: 5px;
+    }
+
+    .form-control
+        gap: 10px
+    }
+
+    .txt-leads .img{
+        width: 10px;
+        height: 10px;
+    }
+
+    .container{
+        width: 250px;
+        height: 250px;
+    }
+
+    .personagem-selecionado .descricao-personagem{
+        width: 80%;
+        font-size: 16px;
+        margin: 20px auto;
+    }
+
+}
